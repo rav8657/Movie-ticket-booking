@@ -22,7 +22,7 @@ export const registerAdmin = async (req, res) => {
 
 
 
-//#region employeeLogin
+//#region AdminLogin
 export const adminLogin = async (req, res) => {
     try {
         const admin = await adminModel.findOne({
